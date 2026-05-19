@@ -1,5 +1,27 @@
+
 .pomodoro-timer{
-    display:flex;
-    flex-direction: row;
+    display : grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-area: 2 / 1 / 5 / 13;
+}
+
+.pomodoro-timer .stage-bg{
+    grid-area: 1 / 2 / 2 / 8;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.pomodoro-timer .pomodoro-stopwatch{
+    grid-area: 2 / 1 / 9 / 9;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: row;
+}
+
+.pomodoro-timer .play-button{
+    grid-area: 3 / 1 / 4 / 3;
 }
