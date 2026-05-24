@@ -34,6 +34,7 @@
 }
 
 .bottom-tasks .task .text-container{
+    color : var(--font-color-write);
     text-wrap: break-word;
     padding-left: 9px;
 }

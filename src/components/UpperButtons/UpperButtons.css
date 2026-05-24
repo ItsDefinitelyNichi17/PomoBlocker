@@ -3,6 +3,8 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    gap : .2rem;
-    background-color: green;
+    gap : .5rem;
+    padding:2px;
+    background-color: var(--color-green);
+    border-radius: 10px;
 }

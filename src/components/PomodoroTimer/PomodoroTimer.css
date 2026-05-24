@@ -10,8 +10,7 @@
     grid-area: 1 / 2 / 2 / 8;
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .pomodoro-timer .pomodoro-stopwatch{
@@ -20,8 +19,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    background-color: var(--color-dark-red);
+    border-radius: 5px;
+    z-index: 0;
 }
 
 .pomodoro-timer .play-button{
     grid-area: 3 / 1 / 4 / 3;
+    z-index: 1;
+    color: var(--font-color-write);
 }
