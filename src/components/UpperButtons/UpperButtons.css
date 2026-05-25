@@ -1,0 +1,10 @@
+.upper-buttons{
+    grid-area: 1 / 1 / 2 / 13 ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap : .5rem;
+    padding:2px;
+    background-color: var(--color-green);
+    border-radius: 10px;
+}
